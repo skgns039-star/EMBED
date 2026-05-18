@@ -58,10 +58,10 @@ const Nav = () => {
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-8">
           <a href="#" className="flex items-center">
-            <img 
-              src="https://cdn.imweb.me/thumbnail/20260518/64fe2abfe75ba.png" 
-              alt="EMBED Logo" 
-              className="h-6 md:h-8 w-auto object-contain brightness-0 invert transition-opacity hover:opacity-80" 
+            <img
+              src="https://cdn.imweb.me/thumbnail/20260518/64fe2abfe75ba.png"
+              alt="EMBED Logo"
+              className="h-6 md:h-8 w-auto object-contain mix-blend-screen transition-opacity hover:opacity-80"
             />
           </a>
           <div className="hidden md:flex gap-8">
@@ -177,7 +177,7 @@ export default function App() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, delay: 0.3 }}
-            className="text-6xl md:text-[9.5rem] font-display font-medium mb-12 leading-[0.75] tracking-tighter"
+            className="text-5xl sm:text-6xl md:text-[9.5rem] font-display font-medium mb-12 leading-[0.75] tracking-tighter"
           >
             Invisible protection. <br/>
             <span className="luxury-serif italic text-white/60">Embedded.</span>
@@ -226,7 +226,7 @@ export default function App() {
       {/* Vision Section */}
       <section id="vision" className="section-container relative">
         <div className="absolute top-0 right-0 w-1/3 h-[1px] bg-gradient-to-l from-white/10 to-transparent" />
-        <div className="grid md:grid-cols-2 gap-40 items-center">
+        <div className="grid md:grid-cols-2 gap-16 md:gap-40 items-center">
           <div>
             <SectionHeading subtitle="01 / The Vision" title="Safety is no longer an accessory. It's a standard." />
             <motion.p 
@@ -414,7 +414,7 @@ export default function App() {
                   <Lock className="w-5 h-5 text-white/40" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold uppercase tracking-wider mb-2">Hardware-Level Security</h4>
+                  <h4 className="text-sm font-semibold uppercase tracking-wider mb-2">Hardware-Level Protection</h4>
                   <p className="text-xs text-white/40 leading-relaxed">End-to-end encryption ensures that even our engineers cannot intercept or manipulate data without an active trigger.</p>
                 </div>
               </div>
@@ -468,7 +468,7 @@ export default function App() {
             <div className="flex flex-col sm:flex-row bg-white/5 border border-white/10 rounded-[1.5rem] sm:rounded-full p-2">
               <input 
                 type="email" 
-                placeholder="CLIENT@NETWORK.COM" 
+                placeholder="YOUR EMAIL ADDRESS"
                 className="bg-transparent flex-1 px-6 py-4 sm:py-0 text-[10px] tracking-widest font-bold placeholder:text-white/20 outline-none w-full" 
               />
               <button className="px-8 py-4 sm:py-3 bg-white text-black rounded-[1rem] sm:rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-white/90 transition-all w-full sm:w-auto">
@@ -489,7 +489,7 @@ export default function App() {
             <div className="flex flex-col sm:flex-row bg-white/5 border border-white/10 rounded-[1.5rem] sm:rounded-full p-2">
               <input 
                 type="text" 
-                placeholder="CONTACT@BRAND.CO" 
+                placeholder="WORK EMAIL ADDRESS"
                 className="bg-transparent flex-1 px-6 py-4 sm:py-0 text-[10px] tracking-widest font-bold placeholder:text-white/20 outline-none w-full" 
               />
               <button className="px-8 py-4 sm:py-3 bg-white text-black rounded-[0.8rem] sm:rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-white/90 transition-all flex items-center justify-center gap-2 w-full sm:w-auto">
@@ -506,10 +506,10 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-16 mb-32">
             <div className="col-span-2">
               <div className="mb-8">
-                <img 
-                  src="https://cdn.imweb.me/thumbnail/20260518/64fe2abfe75ba.png" 
-                  alt="EMBED Logo" 
-                  className="h-10 md:h-12 w-auto object-contain brightness-0 invert" 
+                <img
+                  src="https://cdn.imweb.me/thumbnail/20260518/64fe2abfe75ba.png"
+                  alt="EMBED Logo"
+                  className="h-10 md:h-12 w-auto object-contain mix-blend-screen"
                 />
               </div>
               <p className="text-base text-white/40 max-w-sm leading-relaxed luxury-serif italic">
