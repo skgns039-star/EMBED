@@ -48,9 +48,9 @@ const Nav = () => {
 
   const navItems = [
     { name: 'Philosophy', href: '#vision' },
-    { name: 'Protocol', href: '#protocol' },
-    { name: 'The Lab', href: '#tech' },
-    { name: 'Enterprise', href: '#enterprise' },
+    { name: 'How It Works', href: '#protocol' },
+    { name: 'System', href: '#tech' },
+    { name: 'For Brands', href: '#enterprise' },
   ];
 
   return (
@@ -229,13 +229,18 @@ export default function App() {
         <div className="grid md:grid-cols-2 gap-16 md:gap-40 items-center">
           <div>
             <SectionHeading subtitle="01 / The Vision" title="Safety is no longer an accessory. It's a standard." />
-            <motion.p 
+            <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              className="text-3xl text-white/30 luxury-serif leading-relaxed mb-16 font-light"
+              className="mb-16"
             >
-              Traditional wearables create a visible profile. EMBED integrates silent safety protocols within timeless aesthetic forms.
-            </motion.p>
+              <p className="text-4xl md:text-5xl text-white/80 luxury-serif leading-tight mb-6 font-light">
+                Protection is no longer visible. It's embedded.
+              </p>
+              <p className="text-xl md:text-2xl text-white/30 luxury-serif leading-relaxed font-light">
+                Traditional wearables often prioritize visibility over elegance. EMBED integrates invisible safety technology into timeless jewellery designed for everyday life.
+              </p>
+            </motion.div>
             <div className="grid grid-cols-2 gap-12 text-[8px] uppercase tracking-[0.3em] text-white/10 font-bold border-t border-white/5 pt-12">
               <div className="flex flex-col gap-2">
                 <span className="text-white/20 underline underline-offset-4 decoration-white/5">Operational Spec</span>
@@ -397,7 +402,7 @@ export default function App() {
           <div>
             <span className="text-[10px] uppercase tracking-[0.3em] text-white/40 block mb-6 font-bold">TRUST_MODEL / ARCHITECTURE</span>
             <h2 className="text-4xl md:text-5xl font-display font-medium leading-tight mb-8">
-              Zero Tracking. <br/> Absolute Autonomy.
+              Minimal Tracking. <br/> Maximum Control.
             </h2>
             <div className="space-y-4">
               <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/10 flex gap-6">
@@ -520,9 +525,9 @@ export default function App() {
               <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-white mb-8">Navigation</h4>
               <ul className="space-y-4 text-[10px] text-white/40 uppercase tracking-[0.2em]">
                 <li><a href="#vision" className="hover:text-white transition-colors">Philosophy</a></li>
-                <li><a href="#protocol" className="hover:text-white transition-colors">Protocol</a></li>
-                <li><a href="#tech" className="hover:text-white transition-colors">Laboratory</a></li>
-                <li><a href="#enterprise" className="hover:text-white transition-colors">Enterprise</a></li>
+                <li><a href="#protocol" className="hover:text-white transition-colors">How It Works</a></li>
+                <li><a href="#tech" className="hover:text-white transition-colors">System</a></li>
+                <li><a href="#enterprise" className="hover:text-white transition-colors">For Brands</a></li>
               </ul>
             </div>
             <div>
