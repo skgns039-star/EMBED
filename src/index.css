@@ -3,9 +3,9 @@
 
 @theme {
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  --font-serif: var(--font-sans);
-  --font-display: var(--font-sans);
-  --font-mono: var(--font-sans);
+  --font-serif: "Pretendard Variable", Pretendard, sans-serif;
+  --font-display: "Pretendard Variable", Pretendard, sans-serif;
+  --font-mono: "Pretendard Variable", Pretendard, monospace;
 
   --color-gold: #D4AF37;
   --color-silver: #C0C0C0;

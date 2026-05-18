@@ -57,7 +57,13 @@ const Nav = () => {
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled ? 'bg-black/90 backdrop-blur-md py-4 border-b border-white/5' : 'bg-transparent py-8'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-8">
-          <a href="#" className="font-display text-xl font-bold tracking-[0.2em]">EMBED</a>
+          <a href="#" className="flex items-center">
+            <img 
+              src="https://cdn.imweb.me/thumbnail/20260518/64fe2abfe75ba.png" 
+              alt="EMBED Logo" 
+              className="h-6 md:h-8 w-auto object-contain brightness-0 invert transition-opacity hover:opacity-80" 
+            />
+          </a>
           <div className="hidden md:flex gap-8">
             {navItems.map((item) => (
               <a key={item.name} href={item.href} className="nav-link">{item.name}</a>
@@ -499,7 +505,13 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-16 mb-32">
             <div className="col-span-2">
-              <h2 className="text-4xl font-display font-medium tracking-[0.3em] mb-8">EMBED</h2>
+              <div className="mb-8">
+                <img 
+                  src="https://cdn.imweb.me/thumbnail/20260518/64fe2abfe75ba.png" 
+                  alt="EMBED Logo" 
+                  className="h-10 md:h-12 w-auto object-contain brightness-0 invert" 
+                />
+              </div>
               <p className="text-base text-white/40 max-w-sm leading-relaxed luxury-serif italic">
                 The intersection of invisible safety <br/> and aesthetic excellence.
               </p>
