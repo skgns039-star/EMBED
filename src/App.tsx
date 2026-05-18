@@ -158,7 +158,7 @@ export default function App() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&q=80&w=2070')] bg-cover bg-center brightness-[0.25] opacity-90 scale-105" />
+        <div className="absolute inset-0 bg-[url('https://cdn.imweb.me/thumbnail/20260519/b116dc4c4379e.png')] bg-cover bg-center brightness-[0.25] opacity-90 scale-105" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black" />
         
         {/* Subtle decorative grid */}
@@ -259,7 +259,7 @@ export default function App() {
             className="relative aspect-[4/5] rounded-[3rem] overflow-hidden group border border-white/5 bg-white/5"
           >
             <img 
-              src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=1974" 
+              src="https://cdn.imweb.me/thumbnail/20260519/8da0549efe42d.png"
               alt="High-End Diamond Necklace" 
               className="w-full h-full object-cover grayscale brightness-[0.7] transition-all duration-[2s] group-hover:scale-110 group-hover:brightness-100 group-hover:grayscale-0"
             />
@@ -311,7 +311,7 @@ export default function App() {
             className="order-2 md:order-1 relative rounded-[3rem] overflow-hidden aspect-[4/5] group border border-white/5 bg-white/5"
           >
             <img 
-              src="https://images.unsplash.com/photo-1626122509259-ea8e0a136ada?auto=format&fit=crop&q=80&w=1974" 
+              src="https://cdn.imweb.me/thumbnail/20260519/9e38c70319a86.png"
               alt="Luxury Pearl Necklace" 
               className="w-full h-full object-cover transition-all duration-[2s] group-hover:scale-110 brightness-[0.6] group-hover:brightness-100 grayscale-[0.3] group-hover:grayscale-0"
             />
