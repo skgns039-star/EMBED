@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+@theme {
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --font-serif: var(--font-sans);
+  --font-display: var(--font-sans);
+  --font-mono: var(--font-sans);
+
+  --color-gold: #D4AF37;
+  --color-silver: #C0C0C0;
+  --color-onyx: #0F0F0F;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-black text-white antialiased;
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+  .luxury-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 py-24 md:py-32;
+  }
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl;
+  }
+  .nav-link {
+    @apply text-xs uppercase tracking-[0.2em] font-medium text-white/60 hover:text-white transition-colors duration-300;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-white/40;
+}
