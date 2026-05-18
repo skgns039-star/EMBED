@@ -328,14 +328,14 @@ export default function App() {
           <div className="order-1 md:order-2">
             <span className="text-[10px] uppercase tracking-[0.5em] text-white/20 block mb-10 font-bold">TECH_SPEC / INTERFACE</span>
             <h2 className="text-5xl md:text-[5rem] font-display font-medium leading-[0.95] tracking-tighter mb-16">
-              Jewelry re-engineered <br/> for the modern frontier.
+              Jewellery reimagined <br/> for modern protection.
             </h2>
             
             <div className="space-y-12">
               {[
-                { id: '01', title: 'SOS Activation', detail: 'Patented pressure-sensing technology detects intentional distress signals without accidental triggers.', grade: 'R.A.8' },
-                { id: '02', title: 'Haptic Confirmation', detail: 'Discrete micro-vibrations provide binary tactile feedback through the skin.', grade: 'S-FEED' },
-                { id: '03', title: 'Precision Engineering', detail: 'Miniaturized hardware housing encased in ethical fine silver or 18k gold.', grade: 'GRADE 5' },
+                { id: '01', title: 'SOS Activation', detail: 'A simple touch activates emergency alerts and location sharing in critical moments.', grade: 'R.A.8' },
+                { id: '02', title: 'Discreet Feedback', detail: 'Subtle vibrations provide quiet confirmation without interrupting everyday wear.', grade: 'S-FEED' },
+                { id: '03', title: 'Invisible Integration', detail: 'Miniaturized technology is seamlessly embedded into timeless jewellery designs.', grade: 'GRADE 5' },
               ].map((item, i) => (
                 <motion.div 
                   key={i}
