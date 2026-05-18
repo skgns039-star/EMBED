@@ -8,8 +8,8 @@ import {
   Shield, 
   Cpu, 
   Globe, 
-  Lock, 
-  ChevronDown, 
+  EyeOff,
+  ChevronDown,
   CircleDot, 
   Zap, 
   Fingerprint, 
@@ -407,20 +407,20 @@ export default function App() {
             <div className="space-y-4">
               <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/10 flex gap-6">
                 <div className="p-3 h-fit rounded-lg bg-white/5 border border-white/10">
-                  <Shield className="w-5 h-5 text-white/40" />
+                  <Zap className="w-5 h-5 text-white/40" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold uppercase tracking-wider mb-2">On-Device Obfuscation</h4>
-                  <p className="text-xs text-white/40 leading-relaxed">Telemetry is strictly event-triggered. We have zero-visibility into your routine until the moment you decide otherwise.</p>
+                  <h4 className="text-sm font-semibold uppercase tracking-wider mb-2">Event-Based Activation</h4>
+                  <p className="text-xs text-white/40 leading-relaxed">EMBED only activates during emergency situations or intentional triggers, minimizing unnecessary data collection.</p>
                 </div>
               </div>
               <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/10 flex gap-6">
                 <div className="p-3 h-fit rounded-lg bg-white/5 border border-white/10">
-                  <Lock className="w-5 h-5 text-white/40" />
+                  <EyeOff className="w-5 h-5 text-white/40" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold uppercase tracking-wider mb-2">Hardware-Level Protection</h4>
-                  <p className="text-xs text-white/40 leading-relaxed">End-to-end encryption ensures that even our engineers cannot intercept or manipulate data without an active trigger.</p>
+                  <h4 className="text-sm font-semibold uppercase tracking-wider mb-2">Private by Design</h4>
+                  <p className="text-xs text-white/40 leading-relaxed">Personal information and location sharing remain fully controlled by the user at all times.</p>
                 </div>
               </div>
             </div>
