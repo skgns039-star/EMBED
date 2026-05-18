@@ -468,7 +468,7 @@ export default function App() {
             <div>
               <span className="text-[9px] uppercase tracking-widest text-white/40 block mb-6">Individuals</span>
               <h3 className="text-3xl md:text-4xl font-display font-medium mb-8 leading-tight">Join the Waitlist.</h3>
-              <p className="text-sm text-white/50 mb-12">Early access to limited releases and exclusive partner drops.</p>
+              <p className="text-sm text-white/50 mb-12">Get early access to future releases and exclusive collaboration drops.</p>
             </div>
             <div className="flex flex-col sm:flex-row bg-white/5 border border-white/10 rounded-[1.5rem] sm:rounded-full p-2">
               <input 
@@ -489,7 +489,7 @@ export default function App() {
             <div>
               <span className="text-[9px] uppercase tracking-widest text-white/40 block mb-6">Partners</span>
               <h3 className="text-3xl md:text-4xl font-display font-medium mb-8 leading-tight">Brand Partnership Inquiry.</h3>
-              <p className="text-sm text-white/50 mb-12">Discuss integrating EMBED technology into your collections.</p>
+              <p className="text-sm text-white/50 mb-12">Explore how EMBED technology can be integrated into your jewellery collections.</p>
             </div>
             <div className="flex flex-col sm:flex-row bg-white/5 border border-white/10 rounded-[1.5rem] sm:rounded-full p-2">
               <input 
