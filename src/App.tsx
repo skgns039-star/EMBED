@@ -347,7 +347,7 @@ export default function App() {
                       <h4 className="text-sm font-bold tracking-[0.2em] uppercase text-white/70 group-hover:text-white transition-colors">{item.title}</h4>
                       <span className="text-[8px] text-white/10 font-mono tracking-[0.3em] uppercase">{item.grade}</span>
                     </div>
-                    <p className={`text-base leading-relaxed font-light luxury-serif ${item.id === '01' ? 'text-white/70' : 'text-white/30'}`}>{item.detail}</p>
+                    <p className="text-base text-white/70 leading-relaxed font-light luxury-serif">{item.detail}</p>
                   </div>
                 </motion.div>
               ))}
