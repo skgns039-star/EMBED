@@ -30,8 +30,6 @@ const PROTOCOLS = [
 
 const COLLABS = [
   { name: 'EMBED x MEJURI', type: 'Collaboration' },
-  { name: 'CARTIER', type: 'Concept Partnership Target' },
-  { name: 'TIFFANY & CO.', type: 'Concept Partnership Target' },
 ];
 
 // --- Components ---
@@ -317,8 +315,7 @@ export default function App() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent" />
             
-            <div className="absolute bottom-12 left-12 right-12 flex justify-between items-center">
-               <p className="text-lg luxury-serif italic text-white/40 max-w-[200px] leading-tight">The interface between beauty and absolute control.</p>
+            <div className="absolute bottom-12 left-12 right-12 flex justify-end items-center">
                <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center">
                  <CircleDot className="w-5 h-5 text-white/10" />
                </div>
@@ -350,7 +347,7 @@ export default function App() {
                       <h4 className="text-sm font-bold tracking-[0.2em] uppercase text-white/70 group-hover:text-white transition-colors">{item.title}</h4>
                       <span className="text-[8px] text-white/10 font-mono tracking-[0.3em] uppercase">{item.grade}</span>
                     </div>
-                    <p className="text-base text-white/30 leading-relaxed font-light luxury-serif">{item.detail}</p>
+                    <p className={`text-base leading-relaxed font-light luxury-serif ${item.id === '01' ? 'text-white/70' : 'text-white/30'}`}>{item.detail}</p>
                   </div>
                 </motion.div>
               ))}
@@ -442,7 +439,7 @@ export default function App() {
       <section id="enterprise" ref={collaborationRef} className="py-32 border-t border-white/5">
         <div className="section-container">
           <SectionHeading subtitle="EMBED_MANIFOLD / CAPSULE" title="Collaborations" centered />
-          <div className="flex flex-col md:flex-row gap-12 justify-between items-center opacity-60 hover:opacity-100 transition-opacity duration-700">
+          <div className="flex flex-col md:flex-row gap-12 justify-center items-center opacity-60 hover:opacity-100 transition-opacity duration-700">
             {COLLABS.map((collab, i) => (
               <motion.div 
                 key={i}
